@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*标题*/
+.header {
+	color: red;
+	text-align: center;
+	padding: 2px;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "楷体";
+}
+
+.scaleimg {
+	background-size: 100%;
+}
+
+/*图层*/
+.middle {
+	position: relative;
+	left: 38%;
+	top: 80px;
+	width: 350px;
+	height: 400px;
+	opacity: 0.7;
+	padding: 12px;
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+}
+
+/*邮箱图标*/
+.idico {
+	background-image:
+		url(http://chuantu.biz/t6/308/1526009104x1822611431.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 8px 10px 8px 40px;
+	border: 1px solid #ddd;
+	margin: 15px;
+	widows: 220px;
+}
+
+/*用户名框*/
+.intext {
+	background-size: 40px 250px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 15px;
+	padding: 8px 1px 8px 1px;
+	border: 1px solid #ddd;
+	margin: 0px;
+}
+
+/*验证码框*/
+.userico {
+	width: 200px;
+	height: 15px;
+	padding: 8px 1px 8px 1px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 5px 5px;
+	vertical-align: bottom;
+}
+/*验证码*/
+.checkcode {
+	width: 100px;
+	height: 35px;
+	margin: 5px 5px 5px -5px;
+	vertical-align: bottom;
+}
+/*设置提醒字体大小*/
+.fontSet {
+	font: 5;
+	color: red;
+}

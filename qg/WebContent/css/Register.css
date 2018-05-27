@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/*标题*/
+#header {
+	color: black;
+	text-align: center;
+	padding: 2px;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "楷体";
+}
+/*设置提醒字体大小*/
+.fontSet {
+	font: 5;
+	color: red;
+}
+
+.scaleimg {
+	background-size: 100%;
+}
+
+.marg {
+	margin: 1px;
+}
+/*用户名框*/
+.intext {
+	background-size: 40px 250px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 15px;
+	padding: 8px 1px 8px 1px;
+	border: 1px solid #ddd;
+	margin: 0px;
+}
+/*额外*/
+.extext {
+	background-size: 40px 250px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 15px;
+	padding: 8px 1px 8px 1px;
+	border: 1px solid #ddd;
+	margin: 5px;
+}
+/*验证码框*/
+.userico {
+	width: 200px;
+	height: 15px;
+	padding: 8px 1px 8px 1px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 5px 5px;
+	vertical-align: bottom;
+}
+/*验证码*/
+.checkcode {
+	width: 100px;
+	height: 35px;
+	margin: 5px 5px 5px -5px;
+	vertical-align: bottom;
+}
+/*返回键*/
+.right {
+	width: 0;
+	height: 0;
+	border-right: 2em solid #AA0000;
+	border-bottom: 1em solid transparent;
+	border-top: 1em solid transparent;
+	background: transparent;
+}
+
+/*提交按钮设置*/
+.subico {
+	border:none;
+	background: #0080ff;
+	border-radius: 0px;
+	width: 100px;
+	height: 40px;
+	font-size: 25px;
+	font-weight: 30;
+	color:#ffffff;
+	font-family: "楷体";
+	margin: 15px;
+}
+
+/*图层*/
+.middle {
+	position: relative;
+	left: 38%;
+	top: -5px;
+	width: 350px;
+	height: 655px;
+	opacity: 0.8;
+	padding: 12px;
+	border-radius: 5px;
+	background-color: gray;
+	text-align: center;
+}

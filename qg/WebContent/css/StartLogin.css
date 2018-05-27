@@ -1,0 +1,83 @@
+@charset "UTF-8";
+#header {
+	color: black;
+	text-align: center;
+	padding: 2px;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "楷体";
+}
+
+#forgetPassword {
+	color: white;
+	text-align: center;
+	padding: 2px;
+}
+
+.scaleimg {
+	background-size: 100%;
+}
+
+/*用户名图标*/
+.userico {
+	background-image:
+		url(http://chuantu.biz/t6/308/1525971154x-1404781204.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 8px 10px 8px 40px;
+	border: 1px solid #ddd;
+	margin: 15px;
+	widows: 220px;
+}
+/*密码框图标*/
+.pwdico {
+	background-image:
+		url(http://chuantu.biz/t6/308/1525971529x-1404781204.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 8px 10px 8px 40px;
+	border: 1px solid #ddd;
+	margin: 15px;
+	widows: 220px;
+}
+/*提交按钮设置*/
+.subico {
+	border:none;
+	background: red;
+	border-radius: 0px;
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: 30;
+	color:white;
+	font-family: "楷体";
+	margin: 15px;
+}
+
+.butico {
+	border:none;
+	background: red;
+	border-radius: 0px;
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: 30;
+	color:white;
+	font-family: "楷体";
+	margin: 15px;
+}
+/*图层*/
+.middle {
+	position: relative;
+	left: 38%;
+	top: 80px;
+	width: 350px;
+	height: 450px;
+	opacity: 0.8;
+	padding: 12px;
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+}
